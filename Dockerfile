@@ -7,3 +7,12 @@ FROM jupyter/base-notebook
 
 # If you do switch to root, always be sure to add a "USER $NB_USER" command at the end of the
 # file to ensure the image runs as a unprivileged user by default.
+
+USER root
+
+RUN apt-get update && apt-get install -y libtool libffi-dev ruby ruby-dev make libzmq3-dev libczmq-dev
+RUN gem install cztop
+RUN gem install iruby --pre
+RUN iruby register --force
+
+USER $NB_USER
