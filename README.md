@@ -28,3 +28,11 @@ to the `/home/jovyan/work` directory in Docker container
 and all files can be found in the `work` directory in the browser as shown:
 
 ![Jupyter Notebook](/screenshots/notebook.png)
+
+Use `JUPYTER_ENABLE_LAB` environment variable to enable [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/).
+
+```
+$ docker run -it --name iruby-notebook --rm -p 8888:8888  -e JUPYTER_ENABLE_LAB=yes -v `pwd`:/home/jovyan/work shihanng/iruby-docker:latest
+```
+
+![JupyterLab](/screenshots/jupyterlab.png)
