@@ -10,6 +10,10 @@ with [iruby](https://github.com/SciRuby/iruby) installed.
 This image is built based on the [Jupyter Docker Stacks's cookiecutter](https://jupyter-docker-stacks.readthedocs.io/en/latest/contributing/stacks.html),
 the image is available on [Docker Hub](https://hub.docker.com/r/shihanng/iruby-docker).
 
+## Other features
+
+- [jupyterlab-vim](https://github.com/jwkvam/jupyterlab-vim) is installed.
+
 ## Usage
 
 ```
