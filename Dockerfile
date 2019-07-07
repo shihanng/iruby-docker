@@ -16,3 +16,5 @@ RUN gem install iruby --pre
 RUN iruby register --force
 
 USER $NB_USER
+
+RUN jupyter labextension install jupyterlab_vim
