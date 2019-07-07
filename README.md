@@ -23,3 +23,8 @@ $ docker run -it --name iruby-notebook --rm -p 8888:8888 -v `pwd`:/home/jovyan/w
 ```
 
 Based on the URL above, visit `http://127.0.0.1:8888/?token=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`.
+This command will mount the current working directory (`pwd`)
+to the `/home/jovyan/work` directory in Docker container
+and all files can be found in the `work` directory in the browser as shown:
+
+![Jupyter Notebook](/screenshots/notebook.png)
