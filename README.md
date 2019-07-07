@@ -1,4 +1,4 @@
-![Travis (.org) branch](https://img.shields.io/travis/shihanng/iruby-docker/master.svg?style=popout)
+[![Build Status](https://travis-ci.org/shihanng/iruby-docker.svg?branch=master)](https://travis-ci.org/shihanng/iruby-docker)
 ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/shihanng/iruby-docker.svg?style=popout)
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/shihanng/iruby-docker.svg?style=popout)
 [![](https://images.microbadger.com/badges/version/shihanng/iruby-docker.svg)](https://microbadger.com/images/shihanng/iruby-docker "Get your own version badge on microbadger.com")
